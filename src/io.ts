@@ -17,7 +17,7 @@ interface InputTypes {
   push: string
   remove: string | undefined
   tag: string | undefined
-
+  retry_limit: number | undefined
   github_token: string | undefined
 }
 export type input = keyof InputTypes
